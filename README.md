@@ -19,11 +19,13 @@ O objetivo é conectar ONG's a pessoas que queiram ajudar com um valor monetári
 
 ## :page_with_curl: Sobre
 
-O projeto foi desenvolvido na semana omniStack11 da [RocketSeat](https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg), com o [Diego Fernandes](https://github.com/diego3g) ministrando as aulas, esse evento sempre é bem intenço e traz muitos conhecimentos, foi desenvolvido o back-end, front-end e mobile nesse projeto, vou descrever cada um separadamente.
+O projeto foi desenvolvido na semana omniStack11 da [RocketSeat](https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg), com o [Diego Fernandes](https://github.com/diego3g) ministrando as aulas, esse evento sempre é bem intenso e traz muitos conhecimentos, foi desenvolvido o back-end, front-end e mobile nesse projeto, vou descrever cada um separadamente.
 
 **Back-end**
 
-O back-end foi feito usando o express, foi usado o 
+O back-end foi feito usando o express, e o banco de dados utilizado foi o Sqlite3, o maior diferencial nesse projeto para mim foi trabalhar com a lib knex, que é um construtor de consultas SQL, ele permite trabalhar com as consultas usando funções no javaScript sem a necessidade de criar consultas SQL, e também as migrations, que é uma maneira de criar as tabelas e manter um histórico de quando elas foram criadas, alteradas, é como um controle de versões para as tabelas, essas foram as principais novidades pra mim na parte do back-end.
+
+**Front-end**
 
 ## :rocket: Tecnologias Utilizadas
 
