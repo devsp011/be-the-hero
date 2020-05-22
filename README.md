@@ -27,6 +27,17 @@ O back-end foi feito usando o express, e o banco de dados utilizado foi o Sqlite
 
 **Front-end**
 
+No frontend dessa aplicação não houve grandes desafios, o que mais gostei foi que o layout ficou muito bonito, a prototipagem desse projeto está disponível para ser visualizada aqui em [Resultado](#keyboard-resultado), foi bem interessante o uso da biblioteca react-icons, que reúne os ícones de vários sites, inclusive do material-design, e tem uma configuração que foi feita nas settings do vs-code que foi algo que ajuda bastante a trabalhar com o react, quando vc cria uma tag no html, o vs-code completa pra vc, ja no jsx isso não acontece, mas tem como ativar isso, assim se vc escrever h1 no jsx ele vai sugerir uma tag, isso agiliza muito no dia a dia, vou deixar as instruções para a configuração.
+
+* primeiro passo, apertar Ctrl + Alt + P abrirá um modal
+* segundo passo, buscar por settings (Open settings JSON)
+* terceiro passo, adicionar essas duas linhas dentro do arquivo
+
+``` 
+    "emmet.syntaxProfiles": { "javascript": "jsx" },
+    "emmet.includeLanguages": { "javascript": "javascriptreact" },
+```
+
 ## :rocket: Tecnologias Utilizadas
 
 ### Back-end
@@ -66,9 +77,25 @@ O back-end foi feito usando o express, e o banco de dados utilizado foi o Sqlite
 ## :arrow_forward: Rodar o Projeto
 
 * Primeiro passo, clone ou baixe o projeto em sua maquina
-* Abra a pasta do projeto no terminal
+* Este repositório possui 3 projetos, hero-backend, hero-frontend e hero-mobile, você precisa iniciar os 3 individualmente. 
+
+**hero-backend**
+
+* Primeiro abra a pasta hero-backend no terminal
 * Instale as dependências com o comando `npm i` 
 * Inicie o servidor com o comando `npm start` 
+* O servidor estará disponível na porta **3003**, http://localhost:3003/ 
+
+**hero-frontend**
+
+* Agora abra a pasta hero-frontend no terminal
+* Instale as dependências com o comando `npm i` 
+* Inicie o servidor com o comando `npm start` 
+* Uma aba vai se abrir no navegador, caso não ocorra, navegue para http://localhost:3000/ 
+
+**hero-mobile**
+
+* Em construção...
 
 ## :keyboard: Resultado
 
