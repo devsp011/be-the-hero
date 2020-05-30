@@ -1,12 +1,19 @@
 import React from 'react'
 import { Feather } from '@expo/vector-icons'
+import { useNavigation } from '@react-navigation/native'
 import { View, FlatList, Image, Text, TouchableOpacity } from 'react-native'
 
 import logoImg from '../../assets/logo.png'
-
 import styles from './styles'
 
 export default function Incidents() {
+
+    const navigation = useNavigation()
+
+    function navigateToDatail() {
+        navigation.navigate('Detail')
+    }
+
     return (
         <View style={styles.container}>
             <View style={styles.header}>
@@ -20,7 +27,7 @@ export default function Incidents() {
             <Text style={styles.description}>Escolha um dos casos abaixo e salve o dia.</Text>
 
             <FlatList
-                data={[1, 2, 3]}
+                data={[1, 2, 3, 4, 5]}
                 style={styles.incidentList}
                 keyExtractor={incident => String(incident)}
                 renderItem={() => (
@@ -36,7 +43,7 @@ export default function Incidents() {
 
                         <TouchableOpacity
                             style={styles.detailsButton}
-                            onPress={() => { }}
+                            onPress={navigateToDatail}
                         >
                             <Text style={styles.detailsButtonText}>Ver mais detalhes</Text>
 
