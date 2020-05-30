@@ -38,6 +38,10 @@ No frontend dessa aplicação não houve grandes desafios, o que mais gostei foi
     "emmet.includeLanguages": { "javascript": "javascriptreact" },
 ```
 
+**Mobile**
+
+A parte mobile foi desenvolvida usando o Expo que é uma ferramenta utilizada no desenvolvimento mobile com React Native, ele facilita muito as coisas e te permite começar a desenvolver para mobile em poucos minutos, é realmente bem impressionante, a parte mobile foi mais simples, ela apenas lista os casos da ong, e visualiza um caso em específico, uma funcionalidade interessante que foi desenvolvida foi a integração do app com o e-mail, e o whatsApp, podendo disparar eles de dentro da aplicação, algo bem simples mas que é interessante é o carregamento de mais dados do banco ao rolar até o final da lista.
+
 ## :rocket: Tecnologias Utilizadas
 
 ### Back-end
@@ -68,6 +72,22 @@ No frontend dessa aplicação não houve grandes desafios, o que mais gostei foi
 * [react-icons](https://react-icons.github.io/react-icons/)
 * [react-router-dom](https://reacttraining.com/react-router/web/guides/quick-start)
 
+### Mobile
+
+* [React Native com EXPO](https://expo.io/)
+* [Hooks](https://pt-br.reactjs.org/docs/hooks-intro.html)
+* [JSX](https://pt-br.reactjs.org/docs/introducing-jsx.html)
+* [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+* [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+
+**Dependências**
+
+* [axios](https://github.com/axios/axios)
+* [expo-mail-composer](https://docs.expo.io/versions/latest/sdk/mail-composer/)
+* [expo-constants](https://docs.expo.io/versions/latest/sdk/constants/)
+* [intl](https://www.npmjs.com/package/intl)
+* [react-navigation/stack](https://reactnavigation.org/docs/hello-react-navigation/)
+
 ## :gear: Requisitos
 
 * [Git](https://git-scm.com/) (Para clonar, opcional)
@@ -95,7 +115,10 @@ No frontend dessa aplicação não houve grandes desafios, o que mais gostei foi
 
 **hero-mobile**
 
-* Em construção...
+* Abra a pasta hero-mobile no terminal
+* Instale as dependências com o comando `npm i` 
+* Inicie o servidor com o comando `npm start` 
+* Este projeto foi desenvolvido usando o Expo, então vc precisa instalar o [App do expo](https://play.google.com/store/apps/details?id=host.exp.exponent) no seu celular, e em seguida ler o QRCode que vai aparecer no seu navegador após iniciar o servidor usando o app do expo, após isso o app vai ser carregado no seu celular
 
 ## :keyboard: Resultado
 
