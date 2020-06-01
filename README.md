@@ -23,7 +23,7 @@ O projeto foi desenvolvido na semana omniStack11 da [RocketSeat](https://www.you
 
 **Back-end**
 
-O back-end foi feito usando o express, e o banco de dados utilizado foi o Sqlite3, o maior diferencial nesse projeto para mim foi trabalhar com a lib knex, que é um construtor de consultas SQL, ele permite trabalhar com as consultas usando funções no javaScript sem a necessidade de criar consultas SQL, e também as migrations, que é uma maneira de criar as tabelas e manter um histórico de quando elas foram criadas, alteradas, é como um controle de versões para as tabelas, essas foram as principais novidades pra mim na parte do back-end.
+O back-end foi feito usando o express, e o banco de dados utilizado foi o Sqlite3, o maior diferencial nesse projeto para mim foi trabalhar com a lib knex, que é um construtor de consultas SQL, ele permite trabalhar com as consultas usando funções no javaScript sem a necessidade de criar consultas SQL, e também as migrations, que é uma maneira de criar as tabelas e manter um histórico de quando elas foram criadas, alteradas, é como um controle de versões para as tabelas, no último vídeo da semana omniStack, o Diego abordou mais alguns assuntos que não foram aplicados a fundo, mas que são muito interessantes, são eles: as validações dos dados para garantir que os dados estão chegando da maneira correta no backend, e a criação de testes, foi criado apenas alguns testes não para a aplicação toda, mas foi uma imersão incrível, e te faz colocar o pé na água em relação aquele assunto que antes você nem mesmo conhecia.
 
 **Front-end**
 
@@ -57,6 +57,10 @@ A parte mobile foi desenvolvida usando o Expo que é uma ferramenta utilizada no
 * [express](https://expressjs.com/)
 * [knex](http://knexjs.org/)
 * [sqlite3](https://www.sqlite.org/index.html)
+* [celebrate](https://github.com/arb/celebrate)
+* [cross-env](https://www.npmjs.com/package/cross-env)
+* [jest](https://jestjs.io/)
+* [supertest](https://github.com/visionmedia/supertest)
 
 ### Front-end
 
