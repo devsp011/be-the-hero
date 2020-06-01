@@ -15,5 +15,4 @@ app.use(routes)
 // tratando os erros da lib de validação
 app.use(errors())
 
-// servindo a aplicação
-app.listen(3003, () => console.log('> Aplicação rodando na porta: 3003'))
+module.exports = app
